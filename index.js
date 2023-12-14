@@ -1,8 +1,7 @@
 // Задача 1: Напишіть функцію, яка перетворює рядок в число, використовуючи Number()
 
 function stringToNumber(str) {
-  Number.toString(str)
-  return str
+  return Number(str)
   // Використовуємо Number() для перетворення рядка в число
   // Повертаємо отримане число
 }
